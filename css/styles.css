@@ -402,16 +402,23 @@ footer .last {
   }
 
   .header-block img {
-    width: 70%;
     position: absolute;
-    right: 16%;
-    top: 30%;
+    width: 50%;
+    right: 2%;
+    bottom: 2%;
   }
 
-  .header-block .text {
-    position: absolute;
-    bottom: 10%;
-    left: 15;
+  .header-block .text h2 {
+    color: white;
+    margin-top: 100px;
+    margin-left: 90px;
+  }
+
+  .header-block .text p {
+    max-width: 280px;
+    margin-top: 30px;
+    margin-left: 90px;
+    color: white;
   }
 
   section .filter-card {
@@ -474,5 +481,33 @@ footer .last {
   .footer-links {
     flex-direction: column;
     padding-left: 10%;
+  }
+
+  section .card-wrapper {
+    max-width: 1000px;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+    grid-gap: 30px;
+    padding-top: 50px;
+  }
+
+  section .card-item {
+    height: 400px;
+    background: var(--gray);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 10px;
+  }
+
+  section .card-content {
+    padding-bottom: 110px;
+  }
+
+  section .card-item img {
+    padding-top: 10px;
   }
 }
