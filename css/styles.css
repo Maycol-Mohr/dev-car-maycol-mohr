@@ -110,26 +110,13 @@ nav ul button:hover {
   bottom: 2%;
 }
 
-.header-block .text {
-  position: absolute;
-  bottom: 30%;
-  left: 15%;
-}
-
 .header-block .text h2 {
   color: white;
-  margin-bottom: 20px;
-  text-align: right;
-  transform: translateX(-20px);
-  transition: transform 0.5s;
 }
 
 .header-block .text p {
   max-width: 280px;
   color: white;
-  text-align: right;
-  transform: translateX(-20px);
-  transition: transform 0.4s;
 }
 
 /* Product Catalog */
