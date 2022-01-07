@@ -112,10 +112,14 @@ nav ul button:hover {
 
 .header-block .text h2 {
   color: white;
+  margin-top: 120px;
+  margin-left: 90px;
 }
 
 .header-block .text p {
   max-width: 280px;
+  margin-top: 40px;
+  margin-left: 90px;
   color: white;
 }
 
